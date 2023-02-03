@@ -28,7 +28,7 @@ export default function Example() {
   return (
     <ul
       role="list"
-      className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+      className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
     >
       {[...Array(4)].map((file, idx) => (
         <li key={idx} className="relative">
