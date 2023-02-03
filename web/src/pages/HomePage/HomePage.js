@@ -3,9 +3,9 @@ import { MetaTags } from '@redwoodjs/web'
 
 import Contact from 'src/components/Contact/Contact'
 import Gallery from 'src/components/Gallery/Gallery'
-import HomeMap from 'src/components/HomeMap/HomeMap'
 import Intro from 'src/components/Intro/Intro'
 import SharedContent from 'src/components/SharedContent/SharedContent'
+import SingleMap from 'src/components/SingleMap/SingleMap'
 import Sponsors from 'src/components/Sponsors/Sponsors'
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
       <Intro />
       <div className={`w-full`}>
-        <HomeMap />
+        <SingleMap />
       </div>
       <SharedContent />
 
