@@ -11,13 +11,13 @@ const SingleMap = () => {
   })
 
   return (
-    <div className={`relative text-black max-w-screen-2xl`}>
+    <div className={`relative text-black `}>
       <Map
         onMove={(evt) => setViewState(evt.viewState)}
         {...viewState}
         mapStyle="mapbox://styles/nibbs66/clc0az665003k14pr6xtiiah8"
         style={{ width: '100%', height: '100vh' }}
-        mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_API_TOKEN}
+        mapboxAccessToken={process.env.MAPBOX_API_TOKEN}
         scrollZoom={false}
         minZoom={12}
       >
