@@ -1,3 +1,8 @@
+import { useState } from 'react'
+import Map, { Marker, NavigationControl } from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import shoes from '../../../public/shoes.png'
+import Popover from 'src/components/Popover/Popover'
 const SingleMap = () => {
   const [viewState, setViewState] = useState({
     longitude: 4.80681,
