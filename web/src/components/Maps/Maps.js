@@ -21,7 +21,7 @@ const Maps = () => {
         {...viewState}
         mapStyle="mapbox://styles/nibbs66/clc0az665003k14pr6xtiiah8"
         style={{ width: '100%', height: '100vh' }}
-        mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_API_TOKEN}
+        mapboxAccessToken={`pk.eyJ1IjoibmliYnM2NiIsImEiOiJjbGRrMDAxZnIxd2gyM3FxcDc1M2NlNHJ2In0.oegI82xRY1D63liULmbzDg`}
         scrollZoom={false}
         minZoom={12}
       >
