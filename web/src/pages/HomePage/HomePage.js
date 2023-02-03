@@ -1,7 +1,7 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
-import Intro from 'src/components/Intro/Intro'
+import Intro from '../../components/Intro/Intro'
 
 const HomePage = () => {
   return (
