@@ -5,10 +5,9 @@ import Contact from 'src/components/Contact/Contact'
 import Gallery from 'src/components/Gallery/Gallery'
 import HomeMap from 'src/components/HomeMap/HomeMap'
 import Intro from 'src/components/Intro/Intro'
-import Nieuws from 'src/components/Nieuws/Nieuws'
 import SharedContent from 'src/components/SharedContent/SharedContent'
 import Sponsors from 'src/components/Sponsors/Sponsors'
-import Upcoming from 'src/components/Upcoming/Upcoming'
+
 const HomePage = () => {
   return (
     <div className={`flex flex-col space-y-5 items-center `}>
