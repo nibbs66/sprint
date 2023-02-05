@@ -11,6 +11,6 @@
   apiUrl = "/.netlify/functions"
   includeEnvironmentVariables = [] # any ENV vars that should be available to the web side, see https://redwoodjs.com/docs/environment-variables#web
 [api]
-  port = 8911
+  port = 8912
 [browser]
   open = true
