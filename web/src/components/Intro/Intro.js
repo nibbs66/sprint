@@ -5,7 +5,7 @@ import MobileTitle from 'src/components/MobileTitle/MobileTitle'
 import SprintTypeNoOpacity from 'src/components/SprintTypeNoOpacity/SprintTypeNoOpacity'
 const Intro = () => {
   return (
-    <div className={`w-full bg-joggers bg-cover  bg-fixed bg-center bg-no-repeat`}>
+    <div className={`w-full  bg-joggers bg-auto md:bg-cover lg:bg-fixed bg-center bg-no-repeat`}>
       <div
         id={`home`}
         className={` flex h-[calc(75vh+100px)] w-full items-center  justify-center  object-fill opacity-90 `}
