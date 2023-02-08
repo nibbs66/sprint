@@ -7,14 +7,13 @@ import Intro from 'src/components/Intro/Intro'
 import Maps from 'src/components/Maps/Maps'
 import SharedContent from 'src/components/SharedContent/SharedContent'
 import Sponsors from 'src/components/Sponsors/Sponsors'
-import TestMap from "src/components/TestMap/TestMap";
 
 const HomePage = () => {
   return (
-    <div className={`flex flex-col space-y-5 items-center `}>
+    <div className={`flex flex-col items-center space-y-5 `}>
       <MetaTags title="Home" description="Home page" />
       <Intro />
-    <div className={`w-full`}>
+      <div className={`w-full`}>
         <Maps />
       </div>
       <SharedContent />
