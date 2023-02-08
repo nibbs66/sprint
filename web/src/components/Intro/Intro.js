@@ -5,12 +5,12 @@ import MobileTitle from 'src/components/MobileTitle/MobileTitle'
 import SprintTypeNoOpacity from 'src/components/SprintTypeNoOpacity/SprintTypeNoOpacity'
 const Intro = () => {
   return (
-    <div className={`w-full  bg-joggers bg-auto md:bg-cover lg:bg-fixed bg-center bg-no-repeat`}>
+    <div  id={`home`} className={`w-full  bg-joggers bg-cover lg:bg-fixed bg-top bg-no-repeat object-fill`}>
       <div
-        id={`home`}
-        className={` flex h-[calc(75vh+100px)] w-full items-center  justify-center  object-fill opacity-90 `}
+
+        className={` flex h-[calc(75vh+100px)] w-full items-center  justify-center  object-fill  `}
       >
-        <div className={`h-full w-full bg-black/50`}>
+        <div className={`h-full w-full `}>
           <div
             className={`flex h-full flex-col items-center justify-center space-y-4 lg:space-y-10`}
           >

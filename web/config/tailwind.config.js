@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         bgImg: "url('../public/images/running-1944798.jpeg') ",
-        joggers: "url('../public/images/joggers.jpeg')",
+        joggers: "url('../public/images/running.jpg')",
         otherRunners: "url('../public/images/sprintHolder.jpg')",
         header:
           "url('../public/images/cropped-header-zw-11_voorbeeld_3_2-1.jpg')",
