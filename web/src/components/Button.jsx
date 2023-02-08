@@ -13,11 +13,18 @@ const button = cva('rounded-md relative', {
         'border-slate-400',
         'hover:bg-slate-100',
       ],
-      primary: 'bg-blue-500 text-white hover:bg-blue-500/80 hover:text-white transition duration-700 hover:duration-500',
-      primaryOutline: 'bg-blue-500 text-indigo-600  hover:bg-indigo-500/80 hover:text-white transition duration-700 hover:duration-500',
-      destructive: 'bg-[#d82c0d] hover:bg-[#d82c0d]/80 text-white transition duration-700 hover:duration-500',
-      destructiveOutline: 'bg-[#d82c0d] hover:bg-[#d82c0d]/80 text-red-500 hover:text-white transition duration-700 hover:duration-500',
-      monochrome: 'bg-white text-text border border-gray-400 transition duration-700 hover:duration-500',
+      primary:
+        'bg-blue-500 text-white hover:bg-blue-500/80 hover:text-white transition duration-700 hover:duration-500',
+      primaryOutline:
+        'bg-blue-500 text-indigo-600  hover:bg-indigo-500/80 hover:text-white transition duration-700 hover:duration-500',
+      destructive:
+        'bg-[#d82c0d] hover:bg-[#d82c0d]/80 text-white transition duration-700 hover:duration-500',
+      destructiveOutline:
+        'bg-[#d82c0d] hover:bg-[#d82c0d]/80 text-red-500 hover:text-white transition duration-700 hover:duration-500',
+      coverButton:
+        'bg-white/80 hover:bg-[#d82c0d]/80 border border-[#d82c0d] text-red-500 hover:text-white transition duration-700 hover:duration-500',
+      monochrome:
+        'bg-white text-text border border-gray-400 transition duration-700 hover:duration-500',
     },
     modifier: {
       outline:
@@ -88,16 +95,16 @@ const button = cva('rounded-md relative', {
       size: 'large',
       className: 'px-6 py-3',
     },
-      {
-          modifier: undefined,
-          size: 'xLarge',
-          className: 'px-10 py-6',
-      },
-      {
-          modifier: 'outline',
-          size: 'xLarge',
-          className: 'px-10 py-6',
-      },
+    {
+      modifier: undefined,
+      size: 'xLarge',
+      className: 'px-10 py-6',
+    },
+    {
+      modifier: 'outline',
+      size: 'xLarge',
+      className: 'px-10 py-6',
+    },
     {
       disabled: true,
       variant: 'default',

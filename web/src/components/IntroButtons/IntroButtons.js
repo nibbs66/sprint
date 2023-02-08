@@ -7,8 +7,7 @@ const IntroButtons = () => {
     <>
       <div className={`lg:hidden`}>
         <Button
-          variant={`destructive`}
-          modifier={`outline`}
+          variant={`coverButton`}
           size={'large'}
           className={` cursor-pointer rounded-md bg-[#ca0211] py-6 px-10  text-2xl leading-none text-white drop-shadow-xl transition duration-700 hover:bg-[#f10214] hover:duration-500`}
         >
@@ -16,7 +15,7 @@ const IntroButtons = () => {
         </Button>
       </div>
       <div className={`hidden lg:block`}>
-        <Button variant={`destructive`} modifier={`outline`} size={'xLarge'}>
+        <Button variant={`coverButton`} size={'xLarge'}>
           Lid Worden!
         </Button>
       </div>

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        bgImg: "url('../public/images/running-1944798.jpeg') ",
+        bgImg: "url('../public/images/light.jpg') ",
         joggers: "url('../public/images/shadow.jpg')",
         otherRunners: "url('../public/images/sprintHolder.jpg')",
         header:
